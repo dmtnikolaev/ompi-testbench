@@ -1,0 +1,3 @@
+[submodule "ompi"]
+	path = ompi
+	url = git@github.com:dmtnikolaev/ompi.git

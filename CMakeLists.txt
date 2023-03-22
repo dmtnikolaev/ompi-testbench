@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 
-set(OMPI_LIB_DIR "/home/dmtnik/ompi/install/lib")
-set(OMPI_INCLUDE_DIR "/home/dmtnik/ompi/install/include")
+set(OMPI_LIB_DIR ${PROJECT_SOURCE_DIR}/ompi/install/lib)
+set(OMPI_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/ompi/install/include)
 
 project(ompi-testbench)
 
